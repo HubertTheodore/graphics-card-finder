@@ -89,6 +89,7 @@ def find_graphics_cards():
                             writer.writerow([graphics_card_name, price, shipping, more_info])
                 else:
                     if preferred_graphics_cards.strip() == '':
+                        is_available = True
                         print(f"Graphics Card: {graphics_card_name}")
                         print(f"Price: {price}")
                         print(f"Shipping: {shipping}")
