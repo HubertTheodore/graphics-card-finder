@@ -118,6 +118,7 @@ def find_graphics_cards():
 if __name__ == "__main__":
     while True:
         find_graphics_cards()
+        print('A CSV file containing the graphics cards has been created.')
         # wait time in hours
         wait_time = 24
         print(f'Graphics cards will update every {wait_time} hours.')
