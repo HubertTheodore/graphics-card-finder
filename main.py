@@ -41,7 +41,7 @@ def find_graphics_cards():
     # Checks if any graphics cards have been found
     is_available = False
 
-    for page in range(1, 50+1):
+    for page in range(1, 100+1):
         if page == 1:
             html_text = requests.get('https://www.newegg.com/Desktop-Graphics-Cards/SubCategory/ID-48').text
         else:
