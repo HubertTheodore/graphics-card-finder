@@ -19,5 +19,5 @@ This repository contains a python script that parses the Newegg site for graphic
 3. You will see that graphics cards that fit the requirements are printed to the console
 4. After all graphics cards have been parsed, the program will re-run every 24 hours assuming you do not terminate the script
 5. If you are satisfied, terminate the script with `Ctrl+C`
-6. A csv file called *graphicscards.csv* contains all of the desired graphics cards from the results that have been previously ran by the script
+6. A csv file called *graphicscards.csv* is created in the same `...\graphics-cards-finder>` directory which contains all of the desired graphics cards from the results that have been previously ran by the script
 7. Open the file by running `.\graphicscards.csv` (assuming you are in the `...\graphics-cards-finder>` directory)
